@@ -4,205 +4,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Workshop WEB Basic</title>
+    <title>Document</title>
+
+
+    <style>
+
+
+        /*
+        * untuk memanggil kelas => (.) titik
+        * untuk memanggil id => (#) pagar
+        * untuk memanggil tag => tanpa simbol
+        */
+
+        * {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        #hero {
+            width: 100dvw;
+            height: 100dvh;
+            background-color: #ffe600;
+        }
+
+        .container h1{
+            color: red;
+        }
+
+        .container .title{
+            color: #0088cc;
+        }
+
+        .container-2 {
+            width: 100dvw;
+            height: 100dvh;
+            background-color: #008899;
+        }
+
+        .title{
+            font-size: 2em;
+            color: #ffff;
+        }
+
+    </style>
+
 
 </head>
 
 <body>
 
 
-    <!-- Heading (h1 - h6) -->
-
-    <h1 style="color: #0088cc;">Hello Saya sedang belajar Web Basic</h1>
-    <h2>Hello Saya sedang belajar Web Basic</h2>
-    <h3>Hello Saya sedang belajar Web Basic</h3>
-    <h4>Hello Saya sedang belajar Web Basic</h4>
-    <h5>Hello Saya sedang belajar Web Basic</h5>
-    <h6>Hello Saya sedang belajar Web Basic</h6>
-
-
-    <!-- Paragraf -->
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, laborum?
-    </p>
-
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ipsum reiciendis repellendus ipsam inventore
-        aliquam necessitatibus, natus praesentium quam dolorum ab odit enim fuga voluptates facere commodi vitae.
-        Quaerat omnis aliquam accusamus eos iure amet repellendus suscipit, laboriosam commodi at rerum maxime ipsum,
-        quo quidem explicabo asperiores soluta sed, recusandae quisquam eum ea ullam? Minima voluptas eaque perferendis
-        ullam. Nisi assumenda voluptate reprehenderit a. Rem officia reiciendis excepturi voluptate pariatur optio nihil
-        expedita ratione repellendus quo impedit a assumenda, natus mollitia distinctio quaerat reprehenderit quos
-        dolore et ullam. Reiciendis doloribus dolorem asperiores temporibus voluptate in fugiat illo consequatur quae
-        quaerat?
-    </p>
-
-    <!-- anchor <a> untuk mengunjungi halaman -->
-    <a href="tujuan.html">Klik disini</a>
-    <a href="https://idn.id">Menuju halaman IDN</a>
-
-
-    <form action="">
-        <input type="text" name="nama_depan" value="Fahmi">
-        <input type="number" placeholder="081*****">
-        <input type="file">
-        <input type="color">
-
-        <button type="submit">Kirim Data</button>
-    </form>
-
-
-    <div class="" style="margin-top: 100px; margin-bottom: 100px;">
-
-        <!-- table -->
-        <table style="border: 1px solid #000000; width: 80%; border-collapse: collapse;">
-            <thead style="border: 1px solid #000000; border-collapse: collapse;">
-                <th style="border: 1px solid #000000; border-collapse: collapse;">Nama Lengkap</th>
-                <th style="border: 1px solid #000000; border-collapse: collapse;">Alamat</th>
-                <th style="border: 1px solid #000000; border-collapse: collapse;">Pekerjaan</th>
-            </thead>
-
-            <tbody>
-                <tr>
-                    <td style="border: 1px solid #000000; border-collapse: collapse;">Fahmi Nuradi</td>
-                    <td style="border: 1px solid #000000; border-collapse: collapse;">Jakarta</td>
-                    <td style="border: 1px solid #000000; border-collapse: collapse;">Polisi</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #000000; border-collapse: collapse;">Fahmi Nuradi</td>
-                    <td style="border: 1px solid #000000; border-collapse: collapse;">Jakarta</td>
-                    <td style="border: 1px solid #000000; border-collapse: collapse;">Polisi</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #000000; border-collapse: collapse;">Fahmi Nuradi</td>
-                    <td style="border: 1px solid #000000; border-collapse: collapse;">Jakarta</td>
-                    <td style="border: 1px solid #000000; border-collapse: collapse;">Polisi</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #000000; border-collapse: collapse;">Fahmi Nuradi</td>
-                    <td style="border: 1px solid #000000; border-collapse: collapse;">Jakarta</td>
-                    <td style="border: 1px solid #000000; border-collapse: collapse;">Polisi</td>
-                </tr>
-            </tbody>
-        </table>
-        
+    <div class="container" id="hero">
+        <div class="title">
+            Halloo
+        </div>
+        <h1>Hello saya sedang belajar WEB</h1>
     </div>
 
-    <div class="" style="margin-top: 100px; margin-bottom: 100px;">
-
-        <!-- table -->
-        <table style="border: 1px solid #000000; width: 80%; border-collapse: collapse;">
-
-            <tbody>
-
-                <!-- baris 1 -->
-                <tr>
-                    <td style="border: 1px solid #000000; border-collapse: collapse;">Baris 1</td>
-                    <td style="border: 1px solid #000000; border-collapse: collapse;">Baris 1</td>
-                    <td style="border: 1px solid #000000; border-collapse: collapse;">Baris 1</td>
-                </tr>
-
-                <!-- baris 2 -->
-                <tr>
-                    <td style="border: 1px solid #000000; border-collapse: collapse; background-color: #0088cc;" colspan="2">Baris 2</td>
-                    <td style="border: 1px solid #000000; border-collapse: collapse; background-color: aquamarine;" rowspan="3">Baris 2</td>
-                </tr>
-
-                <!-- baris 3 -->
-                <tr>
-                    <td style="border: 1px solid #000000; border-collapse: collapse;">Baris 3</td>
-                    <td style="border: 1px solid #000000; border-collapse: collapse;">Baris 3</td>
-                </tr>
-
-                <!-- Baris 4 -->
-                <tr>
-                    <td style="border: 1px solid #000000; border-collapse: collapse;">Baris 4</td>
-                    <td style="border: 1px solid #000000; border-collapse: collapse;">Baris 4</td>
-                </tr>
-            </tbody>
-        </table>
-        
+    <div class="container-2">
+        <div class="title">
+            Selamat sore
+        </div>
+        <h1>Saya belajar HTML dan CSS</h1>
     </div>
-
-    <div class="" style="margin-top: 100px; margin-bottom: 100px;">
-        <!-- audio -->
-
-        <audio controls>
-            <source src="path" type="audio/mpeg">
-            Audio Player
-        </audio>
-
-        <video controls>
-            <source src="path" type="video/mp4">
-            Audio Player
-        </audio>
-
-    </div>
-
-
-
-    <!-- form -->
-    <form action="" style="margin-top: 10px; margin-bottom: 20px;">
-        <div class="">
-            <label for="">Nama Depan</label>
-            <input type="text" name="nama_depan">
-        </div>
-        <div class="">
-            <label for="">Nama Tengah (opsional)</label>
-            <input type="text" name="nama_tengah">
-        </div>
-        <div class="">
-            <label for="">Nama Belakang</label>
-            <input type="text" name="nama_belakang">
-        </div>
-
-        <div class="">
-            <label for="">Jenis Kelamin</label>
-            <select name="jenis_kelamin" id="">
-                <option value="Laki Laki">Laki Laki</option>
-                <option value="Perempuan">Perempuan</option>
-            </select>
-        </div>
-
-        <div class="">
-            <button type="submit">Kirim data</button>
-            <button type="reset">Hapus</button>
-        </div>
-    </form>
-
-
-
-    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Contoh.png" alt="Gambar Contoh">
-
-    <!-- list -->
-    <!-- undered list -->
-    <ul>
-        <li>Bakso</li>
-        <li>Mie ayam</li>
-        <li>Seblak</li>
-    </ul>
-
-    <ol>
-        <li>Jus Melon</li>
-        <li>Jus Semangka</li>
-        <li>Jus Apel</li>
-    </ol>
-
-
-    <div class="parent">
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-
-    </div>
-
-    <button type="submit">Klik</button>
-
-
-
-
-
-
 
 
 </body>
